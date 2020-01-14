@@ -5,6 +5,8 @@
 
 (setq +workspaces-on-switch-project-behavior t) ;; always create new workspace for project
 
+(setq doom-theme 'doom-solarized-light)
+
 (set-irc-server! "irc.devel.redhat.com"
                  `(:tls nil
                         :port 6667
