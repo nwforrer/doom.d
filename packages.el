@@ -5,3 +5,8 @@
 
 (when (featurep! :editor evil)
   (package! lispyville))
+
+(package! gdscript-mode
+  :recipe (:host github
+                 :repo "GDQuest/emacs-gdscript-mode"
+                 :files ("*.el" "data/*.txt")))

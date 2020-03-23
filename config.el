@@ -70,3 +70,8 @@
   (setq org-refile-targets '(("~/usr/gtd/gtd.org" :maxlevel . 3)
                              ("~/usr/gtd/someday.org" :maxlevel . 1)
                              ("~/usr/gtd/tickler.org" :maxlevel . 2))))
+
+;;
+;; GDScript
+;;
+(require 'gdscript-mode)
